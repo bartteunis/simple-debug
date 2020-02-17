@@ -1,6 +1,21 @@
 # Debug
 A couple of scripts to draw the most common things to screen
 
+## Macros
+
+> `ev_draw_debug`
+
+User event number to be used for debug drawing. The default value is 15.
+
+## Usage
+
+```
+with(obj_with_debug_event) {
+    event_user(ev_draw_debug);
+    dbg_drawln();
+}
+```
+
 ## Functions
 ### General
 > `dbg_init()`

@@ -10,10 +10,20 @@ User event number to be used for debug drawing. The default value is 15.
 ## Usage
 
 ```
+dbg_draw_start(5, 20);
+
 with(obj_with_debug_event) {
     event_user(ev_draw_debug);
     dbg_drawln();
 }
+```
+
+```
+dbg_draw("==Header==");
+dbg_draw_list(lst_items);
+dbg_drawln();
+dbg_draw_map(map_keys);
+dbg_drawln();
 ```
 
 ## Functions

@@ -8,7 +8,7 @@ if (argument_count > 1) {
 // Column headers (if provided)
 if (argument_count > 2) {
 	var headers = argument[2];
-	dbg_draw(headers);
+	dbg_draw_text(headers);
 }
 
 // Row headers (if provided)
@@ -29,5 +29,5 @@ for(var i = 0;i < ds_grid_height(grid);i++) {
 		row_string += row_headers[i];
 	}
 	
-	dbg_draw(row_string);
+	dbg_draw_text(row_string);
 }

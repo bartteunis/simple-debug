@@ -1,7 +1,14 @@
 /// Draw the physics representation of the game world
+///	dbg_draw_physics()
 var _c = draw_get_color();			// FIX that draw color bug...
 var physics_scale = .05;			// Equal to pixel to meter of physics world (half of that for some reason... => ratio is wrong)
-var mat_trf = matrix_build(global.debug_xstart,global.debug_ystart+global.debug_y*20,0,0,0,0,physics_scale,physics_scale,physics_scale);
+var mat_trf = matrix_build(
+	global.debug_xstart, global.debug_ystart+global.debug_y*global.debug_line_height, 0,
+	0, 0, 0,
+	physics_scale, 
+	physics_scale, 
+	physics_scale
+);
 matrix_set(matrix_world,mat_trf);
 
 	physics_world_draw_debug(

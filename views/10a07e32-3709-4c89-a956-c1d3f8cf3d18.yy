@@ -14,10 +14,11 @@
         "d24f4668-bb69-4b8d-94d4-0c7d1a1e3f03",
         "2c8cf938-a521-46fb-8593-9a03b9cd4671",
         "93e5318c-b3b5-4cab-ae48-e3b0dda93fa6",
-        "d980b608-5ccc-4470-816d-5dcbdc9e50de"
+        "d980b608-5ccc-4470-816d-5dcbdc9e50de",
+        "c972beb7-c7c3-437c-ba19-935a7ba8a870"
     ],
     "filterType": "GMScript",
-    "folderName": "debug",
+    "folderName": "simple-debug",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

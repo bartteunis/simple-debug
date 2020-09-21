@@ -60,12 +60,20 @@ Draw the given map as a key : value pair on each line.
 
 Draw the given grid.
 
+> `dbg_draw_instance(instance_id)`
+
+Draw the given instance as a list of name-value pairs.
+
 ### Other
 
-> `dbg_draw_physics()`
+> `dbg_draw_physics(pixel_to_meter)`
 
 Draw the debug representation of the physics world.
 
 > `dbg_draw_surface(surface)`
 
 Draw the given surface.
+
+> `dbg_draw_texgroup(tex_group_name)`
+
+Draw the layout of the texture group with the given name.
